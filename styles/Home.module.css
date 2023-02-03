@@ -1,0 +1,120 @@
+.header {
+  background: #F0F3F3;
+  text-align: center;
+  padding: 20px 0 0;
+}
+.header h1 {
+  margin: 0 auto;
+}
+
+.mainPomodoro {
+  background: #f9a7ad;
+  padding: 50px 0;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #f4505c;
+  border-radius: 15px;
+}
+
+.mainPomodoro ul {
+  list-style: none;
+  
+}
+
+.mainPomodoro li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  padding: 10px 20px;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.mainPomodoro span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mainPomodoro li:hover {
+  background: #f1202f;
+  color: white;
+}
+
+.timer {
+  padding: 0 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.timer div{
+  display: inline-block;
+  color: #000000;
+  font-size: 4em;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.btnGroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnGroup button {
+  width: 12em;
+  height: 5em;
+  margin: 0 20px;
+  background: initial;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+.btnGroup span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btnGroup button:hover {
+  background: #f1202f;
+  color: white;
+}
+
+
+.main {
+  min-height: 91vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F0F3F3;
+}
+
+.footer {
+  background: #F0F3F3;
+  display: flex;
+  max-height: 2em;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 0 auto 10px;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
